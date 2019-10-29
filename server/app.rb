@@ -187,25 +187,7 @@ class Chat < Sinatra::Base
                     "username": username,
                     "password": password
                 }
-                # resp = {
-                #     :user => username,
-                #     :created => Time.now.to_f
-                # }
-                # event_obj = {
-                #     :event => "Join",
-                #     :data => resp.to_json,
-                #     :id => SecureRandom.uuid.to_str
-                # }
-                # $events[$current_index] = event_obj
-                # update_id_index_map(event_obj[:id], $current_index)
-                # $current_index = ($current_index + 1) % MAX_EVENTS
-                # $current_event_count += 1
-                # $conns.each do |conn|
-                #     conn << "event: #{event_obj[:event]}\n"
-                #     conn << "data: #{event_obj[:data]}\n"
-                #     conn << "id: #{event_obj[:id]}\n\n"
-                # end
-            end
+           end
             status 201
             {:token => token}.to_json
         rescue Exception => e
