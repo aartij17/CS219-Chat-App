@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+#title h1 {
+  font-size: xx-large;
+  border-bottom: 2px solid black;
+  color: #2e2e2e;
+  margin-top: 0px;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+#title .disconnected {
+  background-color: #de6e28;
+}
+
+#title .connected {
+  background-color: #a9de28
+}
+
+#message {
+  font-size: larger;
+  min-height: 2em;
+  width: 100%;
+  padding-left: 10px;
+}
+
+#message_div {
+  overflow: hidden;
+  height: 100%;
+}
+
+#compose_window form {
+  height: 100%;
+}
+
+#compose_window input[type=submit] {
+  float: right;
+  width: 12%;
+  font-size: x-large;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #2df020;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#compose_window input[type=submit]:hover {
+  background-color: #70dc1e;
+}
+
+#message:focus {
+  outline: none;
+}
+
+#chat {
+  padding: 8px;
+  line-height: 1.4;
+  padding-right: 16px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  flex: 1;
+  font-size: large;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+#user_window {
+  border-left: 2px solid white;
+  margin-bottom: 0.5em;
+  width: 10em;
+}
+
+#user_window h2 {
+  background-color: #a9de28;
+  font-size: x-large;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+#user_window .connected {
+  background-color: #a9de28;
+  border: 2px solid #a9de28;
+}
+
+#user_window .disconnected {
+  background-color: #de6e28;
+  border: 2px solid #de6e28;
+}
+
+#users {
+  padding-left: 27px;
+  line-height: 1.4;
+  color: #d6fd88;
+  font-weight: bold;
+}
+
+#users li {
+  text-align: justify;
+}
+
+#window {
+  display: flex;
+  flex: 1;
+  margin: 0em 0em 0 0.5em;
+  min-height: 0;
+}
+
+#container {
+  background-color: #2e2e2e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#login-modal-header {
+  border-bottom: 1px solid yellow;
+  font-size: xx-large;
+  padding: 1em;
+  margin-top: 0px;
+  margin-bottom: 19px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-left: 0px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+#login-modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+  height: 100%;
+  left: 0;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#login-modal .content {
+  font-size: large;
+  font-weight: 800;
+  color: white;
+  background-color: #690650;
+  border: 2px solid #690650;
+  border-radius: 0.5em;
+  margin: auto;
+  max-width: 100%;
+  padding: 1em;
+  width: 20em;
+}
+
+#login-modal .textinput {
+  width: 93%;
+  padding: 4px 7px;
+  border-radius: 4px;
+  border: 1px solid #690650;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+#login-modal .submit {
+  width: 47%;
+  color: #690650;
+  background-color: #c1d638;
+  padding: 10px 2px;
+  border-radius: 4px;
+  border: none;
+  font-size: x-large;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold
+}
+
+#login-modal .submit:hover {
+  background-color: #b2c433;
+}
+
+/*.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
+
+.App-link {
+  color: #09d3ac;
+}

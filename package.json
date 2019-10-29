@@ -1,0 +1,19 @@
+{
+  "name": "cs291-project-3",
+  "version": "1.0.0",
+  "description": "CS291A Project3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foofooman/CS291A-project-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foofooman/CS291A-project-3/issues"
+  },
+  "homepage": "https://github.com/foofooman/CS291A-project-3#readme"
+}

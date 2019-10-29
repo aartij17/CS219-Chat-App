@@ -1,0 +1,11 @@
+Writing PID to tmp/pids/thin.4568.pid
+Changing process privilege to root:root
+Exiting!
+/Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:71:in `getgrnam': can't find group for root (ArgumentError)
+	from /Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:71:in `change_privilege'
+	from /Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:67:in `start'
+	from /Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /Library/Ruby/Gems/2.6.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /usr/local/bin/thin:23:in `load'
+	from /usr/local/bin/thin:23:in `<main>'
